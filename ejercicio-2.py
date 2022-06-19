@@ -1,0 +1,6 @@
+print('Por favor, indique su peso en kilogramos')
+peso = float(input())
+print('Por favor, indique su altura en centímetros')
+altura = float(input())
+res = round(peso / altura, 2)
+print('Su índice de masa corporal es: ', res)
